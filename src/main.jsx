@@ -14,6 +14,7 @@ import RequestTracker from "./assets/assets.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <br />
     <App />
     <RequestTracker />
     <StateQueue />
@@ -30,6 +31,16 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ShoppingCart />
     <br />
     <ShoppingCartPLusMinus />
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <br />
     <Canvas />
   </React.StrictMode>
