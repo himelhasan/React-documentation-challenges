@@ -9,6 +9,7 @@ import ArtistList from "./assets/InitialArtists.jsx";
 import List from "./assets/List.jsx";
 import Scoreboard from "./assets/Scoreboard.jsx";
 import ShoppingCart from "./assets/ShoppingCart.jsx";
+import ShoppingCartPLusMinus from "./assets/ShoppingCartPLusMinus.jsx";
 import RequestTracker from "./assets/assets.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -28,6 +29,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <br />
     <ShoppingCart />
     <br />
+    <ShoppingCartPLusMinus />
     <br />
     <Canvas />
   </React.StrictMode>
