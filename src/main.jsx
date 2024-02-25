@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
+import Canvas from "./assets/Canvas.jsx";
 import StateQueue from "./assets/Increment.jsx";
 import Scoreboard from "./assets/Scoreboard.jsx";
 import RequestTracker from "./assets/assets.jsx";
@@ -11,5 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RequestTracker />
     <StateQueue />
     <Scoreboard />
+    <br />
+    <Canvas />
   </React.StrictMode>
 );
